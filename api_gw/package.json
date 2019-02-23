@@ -1,0 +1,24 @@
+{
+  "name": "api_gw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-link-http": "^1.5.11",
+    "apollo-server-errors": "^2.2.0",
+    "apollo-server-express": "^1.4.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.10.1",
+    "graphql-tools": "4.0.4",
+    "node-fetch": "^2.3.0",
+    "nodemon": "^1.18.9"
+  }
+}
